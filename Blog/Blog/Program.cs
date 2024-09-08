@@ -18,6 +18,7 @@ var logger = LogManager.Setup().LoadConfigurationFromAppSettings().GetCurrentCla
 
 try
 {
+     // test pull request
     var builder = WebApplication.CreateBuilder(args);    
             
     builder.Services.AddRazorComponents()
