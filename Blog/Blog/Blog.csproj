@@ -34,4 +34,11 @@
     <Folder Include="wwwroot\UploadedImages\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Content Update="wwwroot\UploadedImages\Spinner-1s-300px.gif">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+  </ItemGroup>
+
 </Project>
